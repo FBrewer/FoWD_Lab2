@@ -6,17 +6,22 @@
 </head>
 <body>
 
+	<header>
 	<h1 id="bodyHeader1.1">Not a Real CRM</h1>
-	<div id="mainMenu">
+	<nav id="mainMenu">
 		<ul id="mainMenuList" class="ul">
 		  <li class="uli"><a href="#">Home</a></li>
 		  <li class="uli"><a href="#">Catalog</a></li>
 		  <li class="uli"><a href="#">Inventory</a></li>
 		</ul>   
-	</div>
+	</nav>
+	</header>
 	
-	<h2 id="bodyHeader2.1">Contacts</h2>
-	<div id="secondaryMenu">
+	<article>
+	<section id="contacts">
+		<h2 id="bodyHeader2.1">Contacts</h2>
+	</section>
+	<section id="secondaryMenu">
 		<h3 id="bodyHeader3.1">My CRM</h3>
 		<ul id="secondaryMenuList" class="ul">
 		  <li class="uli"><a href="#">Contacts</a></li>
@@ -25,9 +30,9 @@
 		  <li class="uli"><a href="#">Tasks</a></li>
 		  <li class="uli"><a href="#">Evaluation Copies</a></li>
 		</ul>  
-	</div>	
+	</section>
 	
-	<div id="mainContact">
+	<section id="mainContact">
 		<h3 id="bodyHeader3.2">Selena Nyongo</h3>
 		<p>
 		Address: 10 W 14th Ave Pkwy<br/>
@@ -38,24 +43,37 @@
 		Phone:   +1 (720) 865-1111<br/>
 		Email:   <a href="mailto:selenanyongo@notrealforreal.com">selenanyongo@notrealforreal.com</a>
 		</p>
-		<div id="actions">
+		<nav id="actions">
+		  <figure>
 		  <img src="images/edit.png" title="Edit this contact" alt="Edit" />
+		  </figure>
+		  <figure>
 		  <img src="images/add.png" title="Add a new contact" alt="Add" />
+		  </figure>
+		  <figure>
 		  <img src="images/delete.png" title="Delete this contact" alt="Delete" />
+		  </figure>
+		  <figure>
 		  <img src="images/email.png" title="Email the contact" alt="Email" />
+		  </figure>
+		  <figure>
 		  <img src="images/appointment.png" title="Make appointment with contact" alt="Appointment" />
-		</div>
+		  </figure>
+		</nav>
 
 		<img src="images/selena-nyongo-map.png" title="Selena Nyongo Map" alt="Selena Nyongo Map"  /><br/>
 		<em>Map for Selena Nyongo</em>
-	</div>
+	</section>
 	
-	<div id="lastViewed">
+	<section id="lastViewed">
 		<h3 id="bodyHeader3.3">Last Contact Viewed</h3>
 		<p><a href="#">Camille Jung</a><br/>University of Denver</p>
-	</div>
-
-  <p><small><a href="#">Home</a> | <a href="#">Catalog</a> | <a href="#">Inventory</a><br/>
-  <em>Copyright &copy; 2013 Not a Real CRM</em></small></p>
+	</section>
+	</article>
+	
+	<footer>
+		<p><small><a href="#">Home</a> | <a href="#">Catalog</a> | <a href="#">Inventory</a><br/>
+		<em>Copyright &copy; 2013 Not a Real CRM</em></small></p>
+	</footer>
 </body>
 </html>
